@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Bitmap myImage;
 
         try {
-            myImage = task.execute("").get();
+            myImage = task.execute("https://upload.wikimedia.org/wikipedia/en/thumb/7/77/EricCartman.png/220px-EricCartman.png").get();
 
             imageView.setImageBitmap(myImage);
 
